@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>TicTacToe</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>TicTacToe</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
-<body>
-
-     <div class="modal">
-        <div class="modal-content">
-            <h3> choose the opponent </h3>            
-            <button id="buttonCPU"> computer </button>
-            <button id="buttonPlayer"> player2 </button>            
+    <body>
+        <div class="modal">
+            <div class="modal-content">
+                <h3> choose the opponent </h3>
+                <button id="buttonCPU"> computer </button>
+                <button id="buttonPlayer"> player2 </button>
+            </div>
         </div>
-    </div>
-    <div class="box">
-        <div class="box-element left up" id="1"> </div>
-        <div class="box-element up" id="2"> </div>
-        <div class="box-element right up" id="3"> </div>
-        <div class="box-element left" id="4"> </div>
-        <div class="box-element" id="5"> </div>
-        <div class="box-element right" id="6"> </div>
-        <div class="box-element left down" id="7"> </div>
-        <div class="box-element down" id="8"> </div>
-        <div class="box-element right down" id="9"> </div>
-    </div>
-    <div class="table">Make the move.
-    </div>
-    <div id="reset"> RESET</div>
-    <script type="text/javascript" src="index.js"></script>
-</body>
+        <div class="box">
+            <div class="box-element left up" id="1"> </div>
+            <div class="box-element up" id="2"> </div>
+            <div class="box-element right up" id="3"> </div>
+            <div class="box-element left" id="4"> </div>
+            <div class="box-element" id="5"> </div>
+            <div class="box-element right" id="6"> </div>
+            <div class="box-element left down" id="7"> </div>
+            <div class="box-element down" id="8"> </div>
+            <div class="box-element right down" id="9"> </div>
+        </div>
+        <div class="table">
+            <div id="score">Make the move.</div>
+            <div id="reset"> RESET</div>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
 
 </html>

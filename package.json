@@ -1,0 +1,23 @@
+{
+  "name": "js-tictac",
+  "version": "1.0.0",
+  "description": "\"# tictac\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnikitin/tictactoe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmnikitin/tictactoe/issues"
+  },
+  "homepage": "https://github.com/dmnikitin/tictactoe#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
